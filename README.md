@@ -20,4 +20,4 @@ Users should be able to:
 
 ### Live Site URL
 
-- Preview: [Click here](https://hesam-fattahi.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- Preview: [Click here]()
