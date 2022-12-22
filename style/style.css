@@ -79,6 +79,11 @@ p {
   border-radius: 10rem;
   box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.4);
   font-family: "Poppins", sans-serif;
+  transition: 0.3s ease-out;
+}
+.btn:hover, .btn:active {
+  background-color: hsl(300deg, 69%, 71%);
+  color: white;
 }
 
 .social-media {
@@ -94,8 +99,13 @@ p {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  border: 1px solid white;
+  color: white;
+  border: 1px solid currentColor;
   font-size: 2rem;
+  transition: 0.3s ease-out;
+}
+.social-media__item:hover, .social-media__item:active {
+  color: hsl(300deg, 69%, 71%);
 }
 
 @media (max-width: 68em) {
